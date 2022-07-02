@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+}
+
+.wrapper>* {
+  flex: 1;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.prop{
+  display: block;
+  font-size: 0.7rem;
+  color: red;
+}
+
+.characters li {
+  cursor: pointer;
+}
