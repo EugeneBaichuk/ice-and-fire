@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper input,button[class]{
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.wrapper>* {
+  flex: 1;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.prop{
+  display: block;
+  font-size: 0.7rem;
+  color: red;
+}
+
+.characters li {
+  cursor: pointer;
+}
